@@ -1,65 +1,44 @@
 @import url("reset.css");
 
-.nav {
-    text-align: center;
-    padding-top: 20px;
-    color: rgb(33, 97, 47)
+[class*="nav"] {
+    color: green;
 }
 
-.nav li {
-    padding-top: 5px;
+div.article {
+    color: brown;
 }
 
-h1 {
-    font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    padding: 25px 10px;
+.article.text {
+    color: #6B0ACC;
 }
 
-p {
-    padding: 10px;
+.hero-text,
+.conclusion-text {
+    color: #874946;
 }
 
-.main-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.article-text p {
+    color: #D9740B;
 }
 
-.main-section {
-    color: rgb(145, 86, 19);
+.text-one .article {
+    color: #8F7582;
 }
 
-.article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.example-text * {
+    color: red;
 }
 
-.article h2 {
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    padding: 15px;
-    color: rgb(59, 36, 7)
+.example-text-two>p {
+    color: #2FE07D;
 }
 
-
-.container-top {
-    padding-block: 30px;
-    background-color: blue;
-
+.example-text-three~p {
+    color: #9DC9B3;
 }
 
-.container-bottom {
-    margin-top: 10px;
-    padding-block: 30px;
-    background-color: yellow;
-}
-
-main {
-    padding: 0 25px;
+.example-text-three+p {
+    color: #351145;
 }
 
 .article a {
