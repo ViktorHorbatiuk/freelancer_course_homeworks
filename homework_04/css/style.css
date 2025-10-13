@@ -6,7 +6,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    font-display: swap;
 }
 
 .title-hero {
@@ -15,7 +14,6 @@ body {
     font-weight: 700;
     letter-spacing: 3px;
     white-space: nowrap;
-    font-display: swap;
     color: #251005;
     text-align: center;
     text-transform: uppercase;
@@ -24,7 +22,6 @@ body {
 
 .nav-menu {
     font-family: "Playfair Display", serif;
-    font-display: swap;
     font-size: 18px;
     line-height: 1.4;
     word-spacing: 2px;
@@ -46,7 +43,6 @@ body {
     word-spacing: 10px;
     text-decoration: overline;
     white-space: nowrap;
-    font-display: swap;
     text-align: center;
     color: #003cfff2;
     text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
@@ -61,7 +57,6 @@ body {
     font-family: "Playfair Display", serif;
     font-weight: 500;
     line-height: 1.5;
-    font-display: swap;
     text-align: justify;
     color: #966b49;
 }
@@ -71,7 +66,6 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 500;
-    font-display: swap;
     color: #b2ca81;
 }
 
