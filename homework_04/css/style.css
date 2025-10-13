@@ -1,0 +1,91 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair%20Display:wght@400;500;700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-display: swap;
+}
+
+.title-hero {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    font-display: swap;
+    color: #251005;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 9px 5px 6px rgba(175, 109, 32, 0.88);
+}
+
+.nav-menu {
+    font-family: "Playfair Display", serif;
+    font-display: swap;
+    font-size: 18px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    color: rgb(103, 162, 221);
+}
+
+.nav-menu h3 {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+
+
+}
+
+.article>h2 {
+    font-family: "Lora", serif;
+    font-size: 25px;
+    font-weight: 700;
+    word-spacing: 10px;
+    text-decoration: overline;
+    white-space: nowrap;
+    font-display: swap;
+    text-align: center;
+    color: #003cfff2;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.article {
+    line-height: 1.6;
+}
+
+.article p {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-display: swap;
+    text-align: justify;
+    color: #966b49;
+}
+
+
+.article span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-display: swap;
+    color: #b2ca81;
+}
+
+.article .title-items {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.article li {
+    color: #70568d;
+}
+
+.article b {
+    text-decoration: line-through;
+    text-decoration-color: #ed7104;
+    text-decoration-line: underline;
+}
