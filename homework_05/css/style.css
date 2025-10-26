@@ -1,0 +1,62 @@
+ /* Cкидання стилів */
+ @import url(reset.css);
+
+ /* Підключення шрифтів */
+ @import url(fonts.css);
+
+ body {
+     font-family: "Lato", sans-serif;
+     background-color: #FFFFFF;
+     text-align: center;
+     line-height: 1.25;
+     margin: 0 auto;
+ }
+
+ .section {
+     max-width: 1180px;
+     margin: 0 auto;
+ }
+
+ .items {
+     font-size: 0;
+     margin-left: -34px;
+     margin-right: -34px;
+ }
+
+ .items-title {
+     color: #2f302c;
+     font-size: 32px;
+     font-weight: 800;
+     text-transform: uppercase;
+     margin-bottom: 72px;
+     margin-top: 82px;
+ }
+
+
+ .item-title {
+     color: #2f302c;
+     font-size: 16px;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin-bottom: 24px;
+ }
+
+ .item {
+     padding-left: 34px;
+     padding-right: 34px;
+     display: inline-block;
+     width: 33.333%;
+     vertical-align: top;
+     margin-bottom: 68px;
+ }
+
+ .item-img {
+     margin-bottom: 24px;
+ }
+
+ .item-text {
+     color: #7e7f7c;
+     font-size: 16px;
+     font-weight: 500;
+     text-transform: none;
+ }
